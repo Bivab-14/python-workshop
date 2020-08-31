@@ -1,0 +1,16 @@
+#Assigning elements to  list
+list = [1, 4, 5, 6, 7, 3]
+print("Given list is: ",list)
+list.append("9")
+print("updated_list=",list)
+
+#accessing element fom tuples
+tuples = (1, 4, 5, 6, 7, 3)
+print("Given tuples is: ",tuples)
+print("Fourth element is : ",tuples[3])
+
+#Deleting different dictionary elements
+my_dict = {1: 'apple', 2: 'ball'}
+print(my_dict)
+my_dict.remove['ball']
+print("updated_dict=",my_dict)
