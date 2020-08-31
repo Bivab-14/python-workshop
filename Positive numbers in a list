@@ -1,0 +1,7 @@
+input_string = input("Enter a list elements separated by space ")
+list1 = input_string.split()
+print("user list is",list1);
+for num in list1:
+    if num >= 0:
+        print(num, end = " ")
+        
